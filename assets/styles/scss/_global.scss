@@ -5,6 +5,16 @@ Stylesheet: Global Stylesheet
 *************************************************/
 
 /*********************
+VC OVERRIDES
+*********************/
+.vc_column_container {
+  .vc_column-inner {
+    max-width: 1090px;
+    margin: auto;
+  }
+}
+
+/*********************
 POSTS & CONTENT STYLES
 *********************/
 .page-title {
