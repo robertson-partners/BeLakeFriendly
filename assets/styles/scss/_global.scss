@@ -29,7 +29,7 @@ POSTS & CONTENT STYLES
 // Post meta  
 .byline {
 	color: #999;
-	time {}
+	//time {}
 }
 
 // Entry content  
@@ -42,12 +42,12 @@ POSTS & CONTENT STYLES
 
 	.alignleft, img.alignleft { 
 		margin-right: 1.5em; 
-		display: inline; 
+		//display: inline; 
 		float: left; 
 	}
 	.alignright, img.alignright { 
 		margin-left: 1.5em; 
-		display: inline; 
+		//display: inline; 
 		float: right; 
 	}
 	.aligncenter, img.aligncenter { 
@@ -146,11 +146,13 @@ IMAGE GALLERY STYLES
  }
 
 // Gallery caption styles
+/*
 .gallery-caption {}
 .size-full {}
 .size-large {}
 .size-medium {}
 .size-thumbnail {}
+*/
 
 /*********************
 PAGE NAVI STYLES
@@ -190,9 +192,10 @@ COMMENT STYLES
 		ul.children {
 			margin: 0;
 
-			li {}
+			//li {}
 
-			.comment {}
+      /*
+      .comment {}
 			.alt {}
 			.odd {}
 			.even {}
@@ -200,7 +203,7 @@ COMMENT STYLES
 			.byuser {}
 			.bypostauthor {}
 			.comment-author-admin {}
-
+      */
 		}
 	}
 
@@ -219,18 +222,16 @@ COMMENT STYLES
 		padding-bottom: 0;
 	}
 
-	li.depth-2 {}
-	li.depth-3 {
-	}
-	li.depth-4 {}
-	li.depth-5 {}
+	//li.depth-2 {}
+	//li.depth-3 {}
+	//li.depth-4 {}
+	//li.depth-5 {}
 
-	// General comment classes  
+  // General comment classes
+  /*
 	.alt {}
-	.odd {
-	}
-	.even {
-	}
+	.odd {}
+	.even {}
 	.parent {}
 	.comment {}
 	.children {}
@@ -241,7 +242,7 @@ COMMENT STYLES
 	.thread-alt {}
 	.thread-odd {}
 	.thread-even {}
-
+  */
 	// vcard  
 	.vcard {
 		margin-left: 50px;
@@ -250,7 +251,7 @@ COMMENT STYLES
 			font-weight: 700;
 			font-style: normal;
 
-			a.url {}
+			//a.url {}
 
 		}
 
@@ -269,7 +270,7 @@ COMMENT STYLES
 
 		}
 
-		img.photo {}
+		//img.photo {}
 
 		img.avatar {
 			position: absolute;
@@ -283,17 +284,15 @@ COMMENT STYLES
 
 
 	// comment meta  
-	.comment-meta {
-
+  /*
+  .comment-meta {
 		a {}
-
 	}
 
 	.commentmetadata {
-
 		a {}
-
 	}
+  */
 
 	// comment content  
 	.comment_content {
@@ -310,10 +309,8 @@ COMMENT STYLES
 	.comment-reply-link {
 		float: right;
 
-		&:hover,
-		&:focus {
-		
-		}
+    //&:hover,
+    //&:focus {}
 
 	} // end .commentlist .comment-reply-link  
 
@@ -386,13 +383,15 @@ COMMENT FORM STYLES
 	margin: 0 0 1.1em;
 }
 
-// cancel comment reply link  
+// cancel comment reply link
+/*  
 #cancel-comment-reply {
 	a {}
 }
 
 // logged in comments  
 .comments-logged-in-as {}
+*/
 
 // allowed tags  
 #allowed_tags {
