@@ -12,5 +12,8 @@ function site_scripts() {
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
       wp_enqueue_script( 'comment-reply' );
     }
+
+    // FontAwesome Support
+    wp_enqueue_style( 'fontawesome', "https://use.fontawesome.com/releases/v5.6.3/css/all.css" );
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);
